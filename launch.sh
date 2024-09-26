@@ -28,7 +28,7 @@ else
         	--ipc=host \
         	--privileged \
         	--runtime=nvidia \
-        	-e NVIDIA_DRIVER_CAPABILITIES=compute,utility,graphics,display \
+        	-e NVIDIA_DRIVER_CAPABILITIES=compute,utility,graphics \
         	-v /tmp/.X11-unix:/tmp/.X11-unix \
         	-v /dev:/dev \
         	-e DISPLAY=$DISPLAY \
